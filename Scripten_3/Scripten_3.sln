@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week_2_DoWhileLoops", "Week
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week_2_NestingLoops", "Week_2_NestingLoops\Week_2_NestingLoops.csproj", "{0B5F7DDF-34D0-4278-90F3-A8A890CED684}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week_3_Code-DnD", "Week_2_Assignment\Week_3_Code-DnD.csproj", "{2FF580C3-3B78-4559-A2E6-CC72545B8B9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week_3_Code_DieMonsterDie", "Week_2_Assignment\Week_3_Code_DieMonsterDie.csproj", "{2FF580C3-3B78-4559-A2E6-CC72545B8B9F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week_3_Code_DobbelSpel", "Week_2_DobbelOpdracht\Week_3_Code_DobbelSpel.csproj", "{5EC3E114-09F9-45F5-A655-3C3B12E7B771}"
 EndProject
