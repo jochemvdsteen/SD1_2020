@@ -233,9 +233,14 @@ namespace Week_3_CheatSheet
             {
                 for (int i = 0; i < 5; i++)
                 {
-
+                    // loop inside a loop
                 }
             }
+            #endregion
+
+            #region Module
+
+            Console.WriteLine($"The remainder of 5 modulo 3 = {5 % 3}");
             #endregion
         }
     }
