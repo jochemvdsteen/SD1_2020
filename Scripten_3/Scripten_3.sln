@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week_2_DoWhileLoops", "Week
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week_2_NestingLoops", "Week_2_NestingLoops\Week_2_NestingLoops.csproj", "{0B5F7DDF-34D0-4278-90F3-A8A890CED684}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week_2_Assignment", "Week_2_Assignment\Week_2_Assignment.csproj", "{2FF580C3-3B78-4559-A2E6-CC72545B8B9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week_3_Code-DnD", "Week_2_Assignment\Week_3_Code-DnD.csproj", "{2FF580C3-3B78-4559-A2E6-CC72545B8B9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week_2_DobbelOpdracht", "Week_2_DobbelOpdracht\Week_2_DobbelOpdracht.csproj", "{5EC3E114-09F9-45F5-A655-3C3B12E7B771}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week_3_Code_DobbelSpel", "Week_2_DobbelOpdracht\Week_3_Code_DobbelSpel.csproj", "{5EC3E114-09F9-45F5-A655-3C3B12E7B771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week_3_CheatSheet", "Week_3_CheatSheet\Week_3_CheatSheet.csproj", "{727431AD-D7AA-4D5D-85FF-D9266D9A7760}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{5EC3E114-09F9-45F5-A655-3C3B12E7B771}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EC3E114-09F9-45F5-A655-3C3B12E7B771}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EC3E114-09F9-45F5-A655-3C3B12E7B771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{727431AD-D7AA-4D5D-85FF-D9266D9A7760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727431AD-D7AA-4D5D-85FF-D9266D9A7760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727431AD-D7AA-4D5D-85FF-D9266D9A7760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727431AD-D7AA-4D5D-85FF-D9266D9A7760}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
