@@ -34,7 +34,7 @@ namespace Week_2._3_Tooltje
             #region app
             Random rnd = new Random();
             string[] objects = { "pink", "monkey", "potato" };
-            string[] responses = new string[5];
+            string[] responses = new string[6];
             string[] reviews = new string[8];
             
             string user;
