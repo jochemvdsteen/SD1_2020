@@ -45,7 +45,7 @@ namespace Week_1._1_Lists
 
             #region add item to list
             // ## ADD ITEMS TO A LIST
-            // to add items to a list you can use the .Add() method that are available for the list class
+            // to add an item to a list you can use the .Add() method that is available for the list class
             var addItemToList = new List<string>() { "GME", "AMC", "BB", "NOK" };
 
             addItemToList.Add("PLTR");
@@ -54,7 +54,7 @@ namespace Week_1._1_Lists
 
             #region add collection to list
             // ## ADD COLLECTION TO A LIST
-            // to add items to a list you can use the .AddRange() method that are available for the list class
+            // to add items to a list you can use the .AddRange() method that is available for the list class
             var addCollectionToList = new List<int>();
             Console.WriteLine(addCollectionToList.Count); // print the amount of items in the list
 
@@ -73,9 +73,16 @@ namespace Week_1._1_Lists
             Console.WriteLine(addCollectionToList.Count);
             #endregion
 
+            #region check if lists contains an item
+            // ## DOES LIST CONTAIN ITEM
+            // to check if an item exists in a list you can use the .Contains() method that is available for the list class
+            var contiansList = new List<string> { "monkey", "donkey", "duck"};
+            Console.WriteLine("Does the list contain donkey? : " + contiansList.Contains("donkey"));
+            #endregion
+
             #region remove item from list
             // ## REMOVE ITEMS FROM A LIST
-            // to add items to a list you can use the .Remove() method that are available for the list class
+            // to remove an item from a list you can use the .Remove() method that is available for the list class
             var removeItemFromList = new List<int>() { 69, 420 };
 
             // remove by value
@@ -91,7 +98,7 @@ namespace Week_1._1_Lists
 
             #region remove collection from list
             // ## REMOVE COLLECTION FROM A LIST
-            // to add items to a list you can use the .RemoveRange() method that are available for the list class
+            // to remove multiple items from a list you can use the .RemoveRange() method that is available for the list class
             var rempoveCollectionFromList = new List<int>() { 3, 5, 7, 3, 0, 2, 1 };
             // remove a range of items by index
             // this removes the first three items
@@ -100,7 +107,7 @@ namespace Week_1._1_Lists
 
             #region empty list
             // ## EMPTY A LIST
-            // to add items to a list you can use the .Clear() method that are available for the list class
+            // to empty a list you can use the .Clear() method that is available for the list class
             var emptyList = new List<string>() { "DOGE", "BTC", "ETH" };
             emptyList.Clear();
             Console.WriteLine(emptyList.Count);
@@ -108,9 +115,14 @@ namespace Week_1._1_Lists
 
             #region sort list
             // ## SORT A LIST
-            // to add items to a list you can use the ... method that are available for the list class
+            // to sort items in a list you can use the .Sort() method that is available for the list class
+            // this sorts in ascending order
             var sortList = new List<int>() { 5, 2, 6, 4, 1, 3, 7 };
             sortList.Sort();
+
+            // to sort descending you can first sort
+            // and then reverse the list order
+            sortList.Reverse();
             #endregion
         }
     }
