@@ -1,0 +1,21 @@
+Try to do the following using the example code 
+and information you find online.
+When you are get stuck don't stop but ask your classmate or teacher. 
+--------------------------------------
+
+Part 1: Directions...
+  1. Create an enumerable type named 'Directions' containing all 4 directions north, south, east and west.
+     Tip : Enums are defined before the Main method.
+  
+Part 2: 
+  1. Declare a variable named 'playerDirection' of the enum 'Directions' type.
+  2. Ask the user to input one of the available directions.
+  3. Use an if statment to check the input and display a different message for every possible option.
+  
+Part 3:
+  1. Do the same as Part 2 but use the enum value instead of the named
+  2. If you're feeling adventurous you can try to use a foreach to create the menu from the enum 
+	
+--------------------------------------
+Save you work to OneDrive or, preferably, GitHub for Werkhouding points.
+Good luck!!!

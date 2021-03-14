@@ -18,7 +18,7 @@ namespace Week_1._2_ListsAndLoops
             #region populating a list with a loop
             // ## POPULATING USING A LOOP
             // create a list, this one is empty
-            var numberList = new List<int>();
+            List<int> numberList = new List<int>();
 
             // create a loop that runs 5 times
             for (int i = 0; i < 5; i++)
@@ -31,7 +31,7 @@ namespace Week_1._2_ListsAndLoops
             // create an array with names
             // and an empty list
             string[] themNames = new string[] { "summit1g", "Riot Games", "Syndicate", "Shroud", "ESL_CSGO" };
-            var stringList = new List<string>();
+            List<string> stringList = new List<string>();
 
             // loop over the items in the array with a foreach
             foreach (var name in themNames)
@@ -44,7 +44,7 @@ namespace Week_1._2_ListsAndLoops
             #region loop through list with a foreach
             // ## LOOP THROUGH A LIST
             // create a list, this one is not empty
-            var theThings = new List<string>() { "derp", "dank", "bonk", "stonk"};
+            List<string> theThings = new List<string>() { "derp", "dank", "bonk", "stonk"};
 
             // loop over the items in the list with a foreach
             foreach (var thing in theThings)

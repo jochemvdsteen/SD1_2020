@@ -24,15 +24,15 @@ namespace Week_1._1_Lists
              */
             #endregion
 
-            #region creat a list
+            #region create a list
             // ## CREATE A LIST
             // Before you create a list you need to add list functionality to the project
             // to do this add the following to the top of your file
             // using System.Collections.Generic;
 
             // To create a list you can use the following code...
-            var numbers = new List<int>();
-            // var : is a generic variable type
+            List<int> numbers = new List<int>();
+            // List<> : is the type List
             // numbert : is the name you give our list
             // new List<> : initialise a new instance of the list class
             // <int> : specifies the type of items you want the list to contain
@@ -40,13 +40,13 @@ namespace Week_1._1_Lists
 
             // If you know what you want in your list to contain initially 
             // you can initialise it using {}
-            var moreNumbers = new List<int>() { 1, 2, 3, 4 };
+            List<int> moreNumbers = new List<int>() { 1, 2, 3, 4 };
             #endregion
 
             #region add item to list
             // ## ADD ITEMS TO A LIST
             // to add an item to a list you can use the .Add() method that is available for the list class
-            var addItemToList = new List<string>() { "GME", "AMC", "BB", "NOK" };
+            List<string> addItemToList = new List<string>() { "GME", "AMC", "BB", "NOK" };
 
             addItemToList.Add("PLTR");
             addItemToList.Add("TSLA");
@@ -55,7 +55,7 @@ namespace Week_1._1_Lists
             #region add collection to list
             // ## ADD COLLECTION TO A LIST
             // to add items to a list you can use the .AddRange() method that is available for the list class
-            var addCollectionToList = new List<int>();
+            List<int> addCollectionToList = new List<int>();
             Console.WriteLine(addCollectionToList.Count); // print the amount of items in the list
 
             // you can add an array
@@ -68,7 +68,7 @@ namespace Week_1._1_Lists
             Console.WriteLine(addCollectionToList.Count);
 
             // or add another list to the list
-            var numsList = new List<int>() { 23, 24 };
+            List<int> numsList = new List<int>() { 23, 24 };
             addCollectionToList.AddRange(numsList);
             Console.WriteLine(addCollectionToList.Count);
             #endregion
@@ -76,14 +76,14 @@ namespace Week_1._1_Lists
             #region check if lists contains an item
             // ## DOES LIST CONTAIN ITEM
             // to check if an item exists in a list you can use the .Contains() method that is available for the list class
-            var contiansList = new List<string> { "monkey", "donkey", "duck"};
+            List<string> contiansList = new List<string> { "monkey", "donkey", "duck"};
             Console.WriteLine("Does the list contain donkey? : " + contiansList.Contains("donkey"));
             #endregion
 
             #region remove item from list
             // ## REMOVE ITEMS FROM A LIST
             // to remove an item from a list you can use the .Remove() method that is available for the list class
-            var removeItemFromList = new List<int>() { 69, 420 };
+            List<int> removeItemFromList = new List<int>() { 69, 420 };
 
             // remove by value
             removeItemFromList.Remove(420);
@@ -99,16 +99,23 @@ namespace Week_1._1_Lists
             #region remove collection from list
             // ## REMOVE COLLECTION FROM A LIST
             // to remove multiple items from a list you can use the .RemoveRange() method that is available for the list class
-            var rempoveCollectionFromList = new List<int>() { 3, 5, 7, 3, 0, 2, 1 };
+            List<int> rempoveCollectionFromList = new List<int>() { 3, 5, 7, 3, 0, 2, 1 };
             // remove a range of items by index
-            // this removes the first three items
-            rempoveCollectionFromList.RemoveRange(0, 2); 
+            // RemoveRange() requires two parameters, 
+            // the first is the number for the starting position
+            // the second number is the amount of items to remove
+            // the following removes three items starting from position 2
+            rempoveCollectionFromList.RemoveRange(2, 3);
+
+            // to clear a list from position x to the end you can do the following
+            // which gets the the list length minus the starting position to calculate the amount of items to remove
+            rempoveCollectionFromList.RemoveRange(2, rempoveCollectionFromList.Count - 2);
             #endregion
 
             #region empty list
             // ## EMPTY A LIST
             // to empty a list you can use the .Clear() method that is available for the list class
-            var emptyList = new List<string>() { "DOGE", "BTC", "ETH" };
+            List<string> emptyList = new List<string>() { "DOGE", "BTC", "ETH" };
             emptyList.Clear();
             Console.WriteLine(emptyList.Count);
             #endregion
@@ -117,7 +124,7 @@ namespace Week_1._1_Lists
             // ## SORT A LIST
             // to sort items in a list you can use the .Sort() method that is available for the list class
             // this sorts in ascending order
-            var sortList = new List<int>() { 5, 2, 6, 4, 1, 3, 7 };
+            List<int> sortList = new List<int>() { 5, 2, 6, 4, 1, 3, 7 };
             sortList.Sort();
 
             // to sort descending you can first sort
