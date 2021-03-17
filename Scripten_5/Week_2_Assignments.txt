@@ -13,7 +13,7 @@ Part 2:
   3. Use an if statment to check the input and display a different message for every possible option.
   
 Part 3:
-  1. Do the same as Part 2 but use the enum value instead of the named
+  1. Do the same as Part 2 but use the enum value instead of the name.
   2. If you're feeling adventurous you can try to use a foreach to create the menu from the enum 
 	
 --------------------------------------
